@@ -2,8 +2,11 @@
 
 ## Kontributor
 
-- Ale Habsyi Arwendi (1917051067) - Alehabsyi
+Leader and Progaramming
 - Tegar Jayanaga (1917051071) - TegarJayanaga
+
+Designer and Programming
+- Ale Habsyi Arwendi (1917051067) - Alehabsyi
 - M. Arrozi Irfan (1957051008) - arrozi1
 
 ## Dibuat dengan Android Studio
