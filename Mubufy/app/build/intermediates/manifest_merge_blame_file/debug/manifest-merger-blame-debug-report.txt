@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.projectam.mubufy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+12-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:6:5-82
+12-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:6:22-79
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->[com.gauravk.audiovisualizer:audiovisualizer:0.9.2] C:\Users\tegar\.gradle\caches\transforms-3\e408902606d995b02a220a39fd6e74fb\transformed\jetified-audiovisualizer-0.9.2\AndroidManifest.xml:9:5-71
+13-->[com.gauravk.audiovisualizer:audiovisualizer:0.9.2] C:\Users\tegar\.gradle\caches\transforms-3\e408902606d995b02a220a39fd6e74fb\transformed\jetified-audiovisualizer-0.9.2\AndroidManifest.xml:9:22-68
+14
+15    <application
+15-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:8:5-28:19
+16        android:allowBackup="true"
+16-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\tegar\.gradle\caches\transforms-3\97e7ec19bd11dff7ae3d399ac9d0fa5b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/logoooo"
+19-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:10:9-41
+20        android:label="@string/app_name"
+20-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:11:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:12:9-52
+22        android:roundIcon="@drawable/logoooo"
+22-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:13:9-46
+23        android:supportsRtl="true"
+23-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:14:9-35
+24        android:theme="@style/Theme.MubuFy" >
+24-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:15:9-44
+25        <activity
+25-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:16:9-18:40
+26            android:name="com.projectam.mubufy.PlayerActivity"
+26-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:17:13-43
+27            android:exported="false" />
+27-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:18:13-37
+28        <activity
+28-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:19:9-27:20
+29            android:name="com.projectam.mubufy.MainActivity"
+29-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:20:13-41
+30            android:exported="true" >
+30-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:21:13-36
+31            <intent-filter>
+31-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\tegar\AndroidStudioProjects\MubuFy\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->[com.karumi:dexter:6.2.3] C:\Users\tegar\.gradle\caches\transforms-3\b579139a699c03386ec9ae95e15710d6\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+38            android:name="com.karumi.dexter.DexterActivity"
+38-->[com.karumi:dexter:6.2.3] C:\Users\tegar\.gradle\caches\transforms-3\b579139a699c03386ec9ae95e15710d6\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+39            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+39-->[com.karumi:dexter:6.2.3] C:\Users\tegar\.gradle\caches\transforms-3\b579139a699c03386ec9ae95e15710d6\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+40    </application>
+41
+42</manifest>
