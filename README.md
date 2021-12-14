@@ -2,7 +2,7 @@
 
 ## Kontributor
 
-Leader and Progaramming
+Project Leader and Programming
 - Tegar Jayanaga (1917051071) - TegarJayanaga
 
 Designer and Programming
@@ -16,3 +16,4 @@ Designer and Programming
 - Android 5 / API 21 required
 - Permission to read file required
 - For android 11 or API 30 need permission to manage all file
+- Aplikasi ini hanya dapat membaca file mp3 yang ada di Folder Music di storage internal
